@@ -86,7 +86,9 @@ wwv_flow_api.create_plugin(
 '  );',
 '',
 '  sys.htp.prn (',
-'    ''<input type="checkbox" id="''||p_item.name||l_checkbox_postfix||''" ''|| ''value="''||l_value||''" ''|| case when l_value = l_checked_value then ''checked="checked" '' end ||'' />''',
+'    ''<input type="checkbox" id="''||p_item.name||l_checkbox_postfix||''" ''|| ',
+'    ''value="''||l_value||''" ''|| case when l_value = l_checked_value then ''checked="checked" '' end ||',
+'    coalesce(p_item.element_attributes, '''') || '' />''',
 '  );',
 '',
 '  sys.htp.prn(',
@@ -118,7 +120,7 @@ wwv_flow_api.create_plugin(
 ,p_api_version=>2
 ,p_render_function=>'render_simple_checkbox'
 ,p_validation_function=>'validate_simple_checkbox'
-,p_standard_attributes=>'VISIBLE'
+,p_standard_attributes=>'VISIBLE:SOURCE:ELEMENT:ELEMENT_OPTION'
 ,p_substitute_attributes=>true
 ,p_subscribe_plugin_settings=>true
 ,p_version_identifier=>'18.1.0'
