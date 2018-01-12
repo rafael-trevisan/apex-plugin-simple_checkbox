@@ -53,7 +53,9 @@ begin
   );
 
   sys.htp.prn (
-    '<input type="checkbox" id="'||p_item.name||l_checkbox_postfix||'" '|| 'value="'||l_value||'" '|| case when l_value = l_checked_value then 'checked="checked" ' end ||' />'
+    '<input type="checkbox" id="'||p_item.name||l_checkbox_postfix||'" '||
+    'value="'||l_value||'" '|| case when l_value = l_checked_value then 'checked="checked" ' end ||
+    coalesce(p_item.element_attributes, 'class="simple-checkbox"') || ' />'
   );
 
   sys.htp.prn(
