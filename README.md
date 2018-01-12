@@ -6,6 +6,7 @@
 This plug-in displays a single checkbox but allows you to set 2 values (one for checked and another for unchecked). It's perfect for Y(es)/N(o) or 1/0 type checkboxes.
 
 ## Changelog
+### 18.1.2 - Added "simple-checkbox" class
 ### 18.1.1 - Added source and custom attributes
 ### 18.1.0 - Initial Release
 
