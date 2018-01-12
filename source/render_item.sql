@@ -49,13 +49,13 @@ begin
 
   -- Keep the same UT classes to be consistent with the theme
   sys.htp.prn(
-    '<div class="checkbox_group apex-item-checkbox">'
+    '<div class="checkbox_group apex-item-checkbox simple-checkbox">'
   );
 
   sys.htp.prn (
     '<input type="checkbox" id="'||p_item.name||l_checkbox_postfix||'" '||
     'value="'||l_value||'" '|| case when l_value = l_checked_value then 'checked="checked" ' end ||
-    coalesce(p_item.element_attributes, 'class="simple-checkbox"') || ' />'
+    coalesce(p_item.element_attributes, '') || ' />'
   );
 
   sys.htp.prn(
