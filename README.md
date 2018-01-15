@@ -23,8 +23,7 @@ This plug-in displays a single checkbox but allows you to set 2 values (one for 
 ## ![](https://github.com/rafael-trevisan/apex-plugin-simple_checkbox/blob/master/preview.gif)
 
 ## Donation
-If this project help you reduce time to develop, you can give me a cup of coffee :)
+If this project help you reduce time to develop, you can give me a beer :)
 
  - ![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg) https://www.paypal.me/rafaeltrevisan
  - ![Donate Bitcoin](https://img.shields.io/badge/Donate-Bitcoin-orange.svg) 1KHNJEhkHfBsAnJ7hgUzaADJ35ExMvLWog
- 
