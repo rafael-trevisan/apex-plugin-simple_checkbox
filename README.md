@@ -6,6 +6,7 @@
 This plug-in displays a single checkbox but allows you to set 2 values (one for checked and another for unchecked). It's perfect for Y(es)/N(o) or 1/0 type checkboxes.
 
 ## Changelog
+### 18.1.5 - Minor cosmetics
 ### 18.1.4 - Added "checked-value" and "unchecked-value" attributes to the input element
 ### 18.1.3 - Moved "simple-checkbox" class to a more consistent element
 ### 18.1.2 - Added "simple-checkbox" class
@@ -17,7 +18,7 @@ This plug-in displays a single checkbox but allows you to set 2 values (one for 
 - (Optional) Deploy the JS from "server" directory on your webserver and change the "File Prefix" to webservers folder.
 
 ## Demo Application
-[https://apex.oracle.com/pls/apex/f?p=trevis](https://apex.oracle.com/pls/apex/f?p=trevis)
+[https://apex.oracle.com/pls/apex/f?p=trevis](https://apex.oracle.com/pls/apex/f?p=trevis:simple-checkbox)
 
 ## Preview
 ## ![](https://github.com/rafael-trevisan/apex-plugin-simple_checkbox/blob/master/preview.gif)

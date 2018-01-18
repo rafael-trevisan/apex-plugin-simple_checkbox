@@ -87,7 +87,7 @@ wwv_flow_api.create_plugin(
 '',
 '  sys.htp.prn (',
 '    ''<input type="checkbox" id="''||p_item.name||l_checkbox_postfix||''" ''|| ''name="'' || p_item.name || ''"'' ||',
-'    ''value="''||l_checked_value||''" checked-value="'' || l_checked_value || ''" unchecked-value="'' || l_unchecked_value || ''" ''|| case when l_value = l_checked_value then ''checked="checked" '' end ||',
+'    ''value="''||l_checked_value||''" data-checked-value="'' || l_checked_value || ''" data-unchecked-value="'' || l_unchecked_value || ''" ''|| case when l_value = l_checked_value then ''checked="checked" '' end ||',
 '    coalesce(p_item.element_attributes, '''') || '' />''',
 '  );',
 '',

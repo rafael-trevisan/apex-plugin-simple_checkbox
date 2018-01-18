@@ -18,5 +18,4 @@ function ca_trevis_apex_simple_checkbox(e, c) {
       return a.val()
     }
   });
-
 };
