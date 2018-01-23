@@ -12,9 +12,9 @@
   "author" : {
     "name" : "Rafael Trevisan",
     "email" : "rafael@trevis.ca",
-    "url" : "https://trevis.ca",
+    "url" : "https://www.linkedin.com/in/rafael-trevisan/en",
     "twitter" : "tr3v15",
-    "donationUrl" : "https://www.paypal.me/rafaeltrevisan"
+    "donationUrl" : "https://github.com/rafael-trevisan/apex-plugin-simple_checkbox#donation"
   },
   "repository" : {
     "type" : "git",
@@ -27,7 +27,7 @@
       "plugin" : {
         "internalName" : "CA.TREVIS.APEX.SIMPLE_CHECKBOX",
         "type" : "item",
-        "demo" : "https://apex.oracle.com/pls/apex/f?p=trevis",
+        "demo" : "https://apex.oracle.com/pls/apex/f?p=trevis:simple-checkbox",
         "previewImage" : "https://raw.githubusercontent.com/rafael-trevisan/apex-plugin-simple_checkbox/master/preview.gif"
       }
     }
